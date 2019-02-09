@@ -1,0 +1,7 @@
+arguments: C:/Users/jazari1/Desktop/Sayyam_GUI/facenet_attendance/Re-organize/class_main.py
+--------------------
+tensorflow version: 1.12.0
+--------------------
+git hash: b'HEAD'
+--------------------
+b''

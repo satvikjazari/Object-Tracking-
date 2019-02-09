@@ -1,0 +1,13 @@
+1. changing self.offset in darkflow/darkflow/utils/loader.py from 16 to 20 to accomodate darknet weights and cfg
+
+Loss is still nan after training so I referred to :
+https://github.com/thtrieu/darkflow/blob/master/darkflow/net/help.py#L18
+https://github.com/thtrieu/darkflow/issues/557
+
+And I clipped the gradients using:
+gradients = optimizer.compute_gradients(self.framework.loss)
+clipped_gradients = [(tf.clip_by_value(grad, -1., 1.), var) for grad, var in gradients]
+self.train_op = optimizer.apply_gradients(gradients)
+
+Facenet:
+Changed threshold for detection in darkflow/net/flow.py to 0.6 - it is working fine at the moment

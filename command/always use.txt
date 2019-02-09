@@ -1,0 +1,1 @@
+python classifier.py TRAIN C:\Users\jazari1\datasets\lfw\lfw_mtcnnpy_160\train\ C:\Users\jazari1\Desktop\Aman\facenet_attendance\face\models\20180402-114759\20180402-114759.pb C:\Users\jazari1\Desktop\Aman\facenet_attendance\face\classifier_pkl\v2_t12.pkl
