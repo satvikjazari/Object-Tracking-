@@ -58,6 +58,8 @@ class Recognition:
             face.embedding = self.encoder.generate_embedding(face)
             return faces
 
+
+    # here the image is the frame that we are sending
     def identify(self, image):
         faces = self.detect.find_faces(image)
 
@@ -163,6 +165,10 @@ class Detection:
         #     face.image = misc.imresize(cropped, (self.face_crop_size, self.face_crop_size), interp='bilinear')
 
         #     faces.append(face)
+
+        # here faces are returned by using tfnet with frame
+        # what is the nature of face which is returned here?
+        # here in the faces we are getting all the bounding box dimensions and the confidence on processing a frame
         faces = self.tfnet.return_predict(image, self)
         #  print('Find_faces_time_TF ', time.time()-find_faces_st)
 
