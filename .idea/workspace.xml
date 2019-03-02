@@ -2,61 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9acf42e5-a54a-4987-af08-aee5fee083b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/darkflow/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cli.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/cy_yolo2_findboxes.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/cy_yolo2_findboxes.cp36-win_amd64.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/cy_yolo2_findboxes.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/cy_yolo2_findboxes.cpython-36m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/cy_yolo2_findboxes.pyx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/cy_yolo_findboxes.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/cy_yolo_findboxes.cp36-win_amd64.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/cy_yolo_findboxes.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/cy_yolo_findboxes.cpython-36m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/cy_yolo_findboxes.pyx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/nms.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/nms.cp36-win_amd64.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/nms.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/nms.cpython-36m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/nms.pxd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/cython_utils/nms.pyx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/dark/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/dark/connected.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/dark/convolution.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/dark/darknet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/dark/darkop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/dark/layer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/defaults.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/build.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/flow.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/framework.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/help.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/mnist/run.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/ops/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/ops/baseop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/ops/convolution.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/ops/simple.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/vanilla/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/vanilla/train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/yolo/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/yolo/data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/yolo/misc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/yolo/predict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/yolo/train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/yolov2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/yolov2/data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/yolov2/predict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/net/yolov2/train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/utils/box.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/utils/im_transform.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/utils/loader.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/utils/pascal_voc_clean_xml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/utils/process.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/darkflow/version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/face.py" beforeDir="false" afterPath="$PROJECT_DIR$/face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -355,6 +301,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24248926" />
